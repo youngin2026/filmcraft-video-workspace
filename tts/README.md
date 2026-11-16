@@ -49,3 +49,8 @@ UTF-8 텍스트 파일에 읽을 문장만 작성합니다. 연출 지시나 장
 복사한 FilmCraft 프로젝트에 A2 트랙으로 배치하고, 엔진에서 24초 오디오 믹스를 출력했습니다.
 생성 MP3 전체 디코드 오류 없음. 배포 샘플: results/tts-korean-male-sample.mp3.
 공식 프로젝트 문서: https://github.com/rany2/edge-tts
+
+## 다중 음성과 단어 누적 자막 (신규)
+
+`filmcraft-word-tts`와 `WORD-CAPTIONS.md`를 사용하세요.
+세 가지 한국어 음성 선택, 단어 실측 시각, 문장 종료 초기화, FilmCraft 자막 배치가 구현되어 있습니다.
